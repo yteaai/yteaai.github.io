@@ -1,0 +1,10 @@
+<div id="main-menu-mobile" class="main-menu-mobile">
+  <ul>
+    <li><a href="{{site.baseurl}}/" class="{% if page.url == '/' %}current{% endif %}">Home</a></li>
+    <li><a href="{{site.baseurl}}/courses/" class="{% if page.url contains 'testimonials' %}current{% endif %}">Courses</a></li>
+    <li><a href="{{site.baseurl}}/workshops/" class="{% if page.url contains 'testimonials' %}current{% endif %}">Workshops</a></li>
+    <li><a href="{{site.baseurl}}/paper_review/" class="{% if page.url contains 'testimonials' %}current{% endif %}">Paper Review</a></li>
+    <li><a href="{{site.baseurl}}/team/" class="{% if page.url contains 'team' %}current{% endif %}">Team</a></li>
+    <li><a href="{{site.baseurl}}/contact/" class="{% if page.url contains 'contact' %}current{% endif %}">Contact</a></li>
+  </ul>
+</div>
